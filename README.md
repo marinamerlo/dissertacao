@@ -2,7 +2,7 @@
 
 ## Informações Básicas
 
-Dissertação apresentada ao Programa de Pós-graduação do Departamento deCiência Política da Universidade de São Paulo como requisito parcial para a obtenção do título de Mestre em Ciência Política.
+Repositório dos scripts utilizados na dissertação apresentada ao Programa de Pós-graduação do Departamento de Ciência Política da Universidade de São Paulo como requisito parcial para a obtenção do título de Mestre em Ciência Política.
 
 Autora: Marina Merlo
 
@@ -85,17 +85,14 @@ Linguagem: R
 
 ## Pacotes utilizados
 
-### Manipulando os bancos de dados
 - data.table
 - tidyverse
 - gender
 - readr
 - stringr
 - stringi
-- reshape2
-
-### Para os gráficos
 - dplyr
+- reshape2
 - ggplot2
 - ggrepel
 - gridExtra
