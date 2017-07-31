@@ -3,8 +3,8 @@
 ############################################################################
 
 #juntando com o banco de candidaturas e resultados
-#receitas <- fread("receitas_2016_unico.csv")
-#dados_cand <- fread("result_cand_SP.csv")
+receitas <- fread("receitas_2016_unico.csv")
+dados_cand <- fread("result_cand_SP.csv")
 #juntando com o banco de candidaturas e resultados
 glimpse(dados_cand) #ver arquivo banco_candidaturas_resultados.R
 glimpse(receitas) #ver o script banco_receitas.R
