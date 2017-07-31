@@ -2,23 +2,6 @@ library(ggplot2)
 library(ggrepel)
 library(gridExtra)
 
-##############################
-#### GRÁFICOS DE FILIAÇÃO ####
-##############################
-
-g <- ggplot(filiados2, aes(x = reorder(sigla, pct), y= pct)) + 
-geom_bar(stat = "identity", aes(fill = sexo), position = "fill") +
-theme_minimal() +
-  scale_fill_manual(name = "Gênero", values = c("maroon4", "gray", "seagreen")) +
-  geom_hline(yintercept = 0.5) +
-  labs(title ="Gênero dos filiados por partido - Registro Regular", x = "Partido", y = "% de filiados") + 
-  theme(axis.text.x=element_text(angle=50, hjust=1), 
-        legend.position = "bottom") +
-  coord_flip() +
-  scale_y_reverse(breaks = c(0, 0.25, 0.5, 0.75, 1),
-                  labels = c("100%","75%","50%", "25%", "0%"))
-ggsave("barras_genero.png", width = 7, height = 6)
-
 ###############################################
 #### GRÁFICOS DE CANDIDATURAS E RESULTADOS ####
 ###############################################
