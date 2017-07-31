@@ -5,7 +5,6 @@ library(gridExtra)
 ##############################
 #### GRÁFICOS DE FILIAÇÃO ####
 ##############################
-setwd("D:\\Dropbox\\Mestrado\\Dissertacao\\Cap_Aspiração\\dados")
 
 g <- ggplot(filiados2, aes(x = reorder(sigla, pct), y= pct)) + 
 geom_bar(stat = "identity", aes(fill = sexo), position = "fill") +
@@ -171,7 +170,7 @@ grid.arrange(bplot2, bplot3, ncol=1)
 ggsave("boxplot_recursos_candidatos_partidos.png", width = 10, height = 5, arrangeGrob(bplot2, bplot3, ncol=1))
 
 
-##gráfico de barras de candidaturas por partido e por gênero 
+##gráfico de barras de recursos por partido e por gênero 
 g <-ggplot(data = dados, aes(x = reorder(sigla, -recpart_fem_pct),  y = recpart, fill = genero)) + 
   geom_bar(stat = "identity", position = "fill") +
   theme_bw()+
