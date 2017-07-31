@@ -82,3 +82,21 @@ Linguagem: R
 
 ([Ver script](https://github.com/marinamerlo/dissertacao/blob/master/variaveis_graficos_recursos.R))
 
+### Pacotes utilizados
+
+#### Manipulando os bancos de dados
+- data.table
+- tidyverse
+- gender
+- readr
+- stringr
+- stringi
+- reshape2
+
+#### Para os gráficos
+- dplyr
+- ggplot2
+- ggrepel
+- gridExtra
+
+
