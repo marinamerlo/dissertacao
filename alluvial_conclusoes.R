@@ -53,9 +53,9 @@ dados$Vereadora = factor(dados$Vereadora, levels=c("Janaína Lima (NOVO)",
                                                    "Isa Penna (PSOL)",
                                                    "Sâmia Bomfim (PSOL)"))
 
-ord <- list(NULL,with(dados, order(Vereadora,partido)),with(dados, order(Vereadora,partido)),
-            with(dados, order(partido, Vereadora)),with(dados, order(partido, Vereadora)),with(dados, order(Vereadora)),
-            with(dados, order(Vereadora)))
+ord <- list(NULL,NULL,NULL,
+            NULL,NULL,with(dados, order(partido)),
+            NULL)
 
 
 
@@ -65,7 +65,7 @@ alluvial(
   freq=dados$n,
   col = ifelse(dados$Vereadora == "Janaína Lima (NOVO)", "orange", 
                ifelse(dados$Vereadora == "Adriana Ramalho (PSDB)", "blue",
-                      ifelse(dados$Vereadora == "Aline Cardoso (PSDB)", "darkblue",
+                      ifelse(dados$Vereadora == "Aline Cardoso (PSDB)", "black",
                              ifelse(dados$Vereadora == "Edir Sales (PSD)", "seagreen",
                                     ifelse(dados$Vereadora == "Juliana Cardoso (PT)", "red",
                                            ifelse(dados$Vereadora == "Sâmia Bomfim (PSOL)", "yellow",
@@ -74,16 +74,16 @@ alluvial(
   blocks=TRUE,
   border = ifelse(dados$Vereadora == "Janaína Lima (NOVO)", "orange", 
                   ifelse(dados$Vereadora == "Adriana Ramalho (PSDB)", "blue",
-                         ifelse(dados$Vereadora == "Aline Cardoso (PSDB)", "darkblue",
+                         ifelse(dados$Vereadora == "Aline Cardoso (PSDB)", "black",
                                 ifelse(dados$Vereadora == "Edir Sales (PSD)", "seagreen",
                                        ifelse(dados$Vereadora == "Juliana Cardoso (PT)", "red",
                                               ifelse(dados$Vereadora == "Sâmia Bomfim (PSOL)", "yellow",
                                                      ifelse(dados$Vereadora == "Isa Penna (PSOL)", "yellow","grey"))))))),
-  ordering=ord,
-  gap.width=0.2,
+  #ordering=ord,
+  gap.width=0.1,
   layer=dados$partido
 
   
 )
 
-
+edit(dados)
