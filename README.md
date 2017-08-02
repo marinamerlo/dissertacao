@@ -91,6 +91,13 @@ A caracterização das etapas das trajetórias se utiliza de dados qualitativos 
 ([Ver script](https://github.com/marinamerlo/dissertacao/blob/master/variaveis_graficos_recursos.R))
 
 
+## Outros códigos e dados
+- Banco com o resumo das entrevistas realizadas
+([Ver banco](https://github.com/marinamerlo/dissertacao/blob/master/dados.csv))
+- Criação de um alluvial diagram para indicar a trajetória das vereadoras
+([Ver script](https://github.com/marinamerlo/dissertacao/blob/master/alluvial_conclusoes.R))
+
+
 ## Pacotes utilizados
 
 - data.table
@@ -104,5 +111,6 @@ A caracterização das etapas das trajetórias se utiliza de dados qualitativos 
 - ggplot2
 - ggrepel
 - gridExtra
+- alluvial
 
 
