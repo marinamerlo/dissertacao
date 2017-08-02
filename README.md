@@ -13,7 +13,7 @@ Orientador: Prof. Dr. Glauco Peres da Silva
 Linguagem: R
 
 ## Resumo da dissertação
-As mulheres são a maioria do eleitorado brasileiro, quase metade dos filiados a algum partido político e, mesmo sendo um terço dos candidatos, elas ainda perfazem pouco mais de 10% dos eleitos. A legislação atual dispõe de pelo menos três medidas que têm como objetivo o aumento da participação política feminina. Assim, era de se esperar que com esses incentivos específicos, a participação das mulheres nas instâncias representativas estivesse aumentando, porém, a persistência do baixo número de mulheres eleitas e evidências de que suas chances de eleição são menores que as dos homens abrem uma seara específica de investigação para determinar as razões dessa sub-representação. A partir da investigação da disputa eleitoral de 2016 para a Câmara Municipal da cidade de São Paulo, buscar-se-á avaliar como a trajetória pessoal e política das candidatas eleitas pode dar pistas sobre quais foram os momentos e experiências que as tornaram candidaturas potenciais aos olhos dos partidos e suas lideranças partidárias. 
+> As mulheres são a maioria do eleitorado brasileiro, quase metade dos filiados a algum partido político e, mesmo sendo um terço dos candidatos, elas ainda perfazem pouco mais de 10% dos eleitos. A legislação atual dispõe de pelo menos três medidas que têm como objetivo o aumento da participação política feminina. Assim, era de se esperar que com esses incentivos específicos, a participação das mulheres nas instâncias representativas estivesse aumentando, porém, a persistência do baixo número de mulheres eleitas e evidências de que suas chances de eleição são menores que as dos homens abrem uma seara específica de investigação para determinar as razões dessa sub-representação. A partir da investigação da disputa eleitoral de 2016 para a Câmara Municipal da cidade de São Paulo, buscar-se-á avaliar como a trajetória pessoal e política das candidatas eleitas pode dar pistas sobre quais foram os momentos e experiências que as tornaram candidaturas potenciais aos olhos dos partidos e suas lideranças partidárias. 
 
 A observação da trajetória das candidatas eleitas tem como ganho principal indicar elementos que as diferenciaram o suficiente enquanto candidatas para que conseguissem vencer as barreiras que a literatura tem apontado como causas da subrepresentação feminina nos postos eletivos. O questionamento comum feito em cada uma dessas etapas da trajetória política e ao longo da dissertação é o quanto a organização partidária e as lideranças partidárias atuaram, direta ou indiretamente, para tornar possível a participação política e o sucesso eleitoral destas candidatas; ao mesmo tempo, ponderar o quanto e como essas mulheres se aproveitaram, se utilizaram ou criaram oportunidades para atuar. 
 
@@ -94,7 +94,7 @@ A caracterização das etapas das trajetórias se utiliza de dados qualitativos 
 ## Outros códigos e dados
 - Banco com o resumo das entrevistas realizadas
 ([Ver banco](https://github.com/marinamerlo/dissertacao/blob/master/dados.csv))
-- Criação de um alluvial diagram para indicar a trajetória das vereadoras
+- Criação de um *alluvial diagram* para indicar a trajetória das vereadoras
 ([Ver script](https://github.com/marinamerlo/dissertacao/blob/master/alluvial_conclusoes.R))
 
 
